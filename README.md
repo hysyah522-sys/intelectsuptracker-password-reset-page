@@ -55,7 +55,6 @@
       'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBmb292ZmtubWFteGh6bnJjZW90Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMxMjU4NTEsImV4cCI6MjA3ODcwMTg1MX0.7lmLmX_6V7Mk9JZfgSSW9Ox2siYqsQerhkyj3mdNIL8'
     );
 
-    // Get the access token from URL query params
     const urlParams = new URLSearchParams(window.location.search);
     const accessToken = urlParams.get('access_token');
 
